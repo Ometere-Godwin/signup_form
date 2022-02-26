@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <form class="form formHidden" id="login">
+         <h1 class="formTitle">Login</h1>
+         <div class="formMessage"></div>
+         <div class="formInputgroup">
+             <input type="text" class="inputForm" placeholder="User Name or Email" autofocus>
+             <div class="inputErrorMessage"></div>
+            </div>
+
+            <div class="formInputgroup">
+             <input type="password" class="inputForm" placeholder="Password" autofocus>
+            </div>
+
+            <button type="submit" id="submit" class="formButton">Continue</button>
+             <p class="formText"><a href="#" class="formLink">Forgot Password?</a></p>
+             <p class="formText"><a href="#" id="creatAccount" class="formLink">Don't have an account? Sign up</a></p>
+
+        </form>
+
+        <form class="createAccountForm" id="createAccount">
+            <h1 class="formTitle">Create Account</h1>
+            <div class="formMessage"></div>
+            <div class="formInputgroup">
+                <input type="text" class="inputForm" placeholder="Username" autofocus>
+                <div class="inputErrorMessage"></div>
+               </div>
+
+               <div class="formInputgroup">
+                <input type="text" class="inputForm" placeholder="Email" autofocus>
+                <div class="inputErrorMessage"></div>
+               </div>
+   
+               <div class="formInputgroup">
+                <input type="password" class="inputForm" placeholder="Password" autofocus>
+               </div>
+
+               <div class="formInputgroup">
+                <input type="password" class="inputForm" placeholder="Confirm Password" autofocus>
+               </div>
+   
+               <button type="submit" id="submit" class="formButton">Sign Up</button>
+               <p><a href="./" id="linkSignIn">Already have an account? Sign in</a></p>
+                   
+           </form>
+
+   </div>
+
+   <!--Linking Javascript File-->
+   <script src="index.js"></script>
+</body>
+</html>
